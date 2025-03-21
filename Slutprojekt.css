@@ -1,3 +1,70 @@
-.Text{
-    color: blue;
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0px
+}
+
+.header{
+    font-size: 250%;
+
+}
+
+.text{
+    text-align: center;
+}
+
+.topmenu{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 1px    ;
+    
+    
+}
+.test{
+    margin-top: 1000px;
+}
+
+a{
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-decoration: none;
+    font-size: 125%;
+}
+
+a:hover{
+    height: 100%;
+    background-color: whitesmoke;
+    color: black;
+    align-items: center;
+}
+#logo{
+    height: 25vh;
+    width: 12%;
+    margin-left: 44%;
+    border-radius: 50%;
+    margin-top: 2vh;
+}
+.namebar{
+    background-color: black;
+    color: white;
+    height: 8vh;
+    margin-top: -23px;
+    margin-left: 1px;
+}
+.rounded{
+    border-radius: 10%;
+    height: 50vh;
+    margin-left: 10%;
+    margin-bottom: 16vh;
+    width: 20%;
 }
