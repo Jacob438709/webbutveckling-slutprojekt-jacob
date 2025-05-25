@@ -29,8 +29,6 @@ h1,h2{
 }
 
 .topmenu {
-    position: sticky;
-    top: 0;
     background: linear-gradient(to right, rgb(20, 20, 20), rgb(80, 80, 80));
     color: white;
     padding: 0 2%;
@@ -48,7 +46,7 @@ h1,h2{
     align-items: center;
     flex-grow: 1;
 }
-
+/*hamburgar-ikon*/
 .menu-toggle {
     display: none;
     font-size: 2rem;
@@ -70,7 +68,7 @@ h1,h2{
     text-decoration-thickness: 1px;
 }
 
-.rounded {
+.rounded-images {
     border-radius: 10%;
     height: 50vh;
     margin: 0 5vw 16vh;
@@ -128,7 +126,7 @@ h1,h2{
         padding-bottom: 30px;
         height: auto;
     }
-    .rounded {
+    .rounded-images {
     width: 80vw;
     height: auto;
     aspect-ratio: auto;

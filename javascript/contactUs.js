@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const lastnameValue = lastnameInput.value.trim();
       const nicknameInput = document.getElementById("nickname");
       const nicknameValue = nicknameInput.value.trim();
-      const errorMessage = document.getElementById("errormessage");
+      const message = document.getElementById("message");
 
       // Regexp som tillåter a-ö och A-Ö, inga siffror eller specialtecken
       const lettersOnlyRegex = /^[a-zA-ZåäöÅÄÖ]+$/;
@@ -17,12 +17,12 @@ document.addEventListener("DOMContentLoaded", function() {
       if (lettersOnlyRegex.test(firstnameValue) && lettersOnlyRegex.test(lastnameValue)&& lettersOnlyRegex.test(nicknameValue)) {
           document.querySelector(".form-wrapper").style.display = "none"
           document.querySelector(".header").style.display = "none"
-          errorMessage.textContent = "Thanks for your message " + nicknameValue + "!"
-          errorMessage.style.color = "black"
-          errorMessage.style.fontSize = "300%"
+          message.textContent = "Thanks for your message " + nicknameValue + "!"
+          message.style.color = "black"
+          message.style.fontSize = "300%"
       } else {
-        errorMessage.textContent = "The name can only contain letters (a-ö, A-Ö).";
-        errorMessage.style.color = "red";
+        message.textContent = "The name can only contain letters (a-ö, A-Ö).";
+        message.style.color = "red";
       }
     });
   });

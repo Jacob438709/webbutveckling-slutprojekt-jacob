@@ -7,6 +7,15 @@ h2{
     margin-bottom: 10%;
     font-size: 300%;
 }
+video{
+    width: 100%;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
 .best-sellers-wrapper{
     display: flex;
     flex-direction: row;
@@ -22,15 +31,6 @@ h2{
 }
 .row-2 {
   flex-direction: row-reverse;
-}
-video{
-    width: 100%;
-}
-.video{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
 }
 @media (max-width: 600px) {
   .best-sellers-wrapper {
