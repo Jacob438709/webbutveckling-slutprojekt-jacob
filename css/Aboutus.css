@@ -5,15 +5,22 @@ ul {
   
   li {
     position: relative;
-    padding-left: 48.5%;
+    padding-left: 1.2em;
   }
   
   li::before {
     content: "•";
     position: absolute;
-    left: 47%;
+    left: 0;
     color: black;
   }
   h2{
     margin-top: 8vw;
+  }
+  .list-wrapper{
+    display: flex;
+    justify-content: center;
+  }
+  .background-text{
+    text-align: center;
   }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Almung Home</title>
+        <link rel="stylesheet" href="../css/Slutprojekt.css">
+        <link rel="stylesheet" href="../css/Contactus.css">
+        <script src="https://kit.fontawesome.com/486213cd42.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="namebar">
+                <img loading="lazy" class="logo" src="../bilder/Logo.png" alt="logo">
+            </div>
+
+            <nav class="topmenu">
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="menu-links" id="menu-links">
+                    <a class="link" href="Collection.html">Collection</a>
+                    <a class="link" href="Home.html">Home</a>
+                    <a class="link" href="Aboutus.html">About us</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1 class="header">Contact Us</h1>
+                <div class="errormessage-wrapper">
+                    <p id="errormessage"></p>            
+                </div>
+                <div class="form-wrapper">
+                    <form id="forms"> 
+                        <input type="text" name="firstname" placeholder="Firstname" id="firstname" required>
+                        <input type="text" name="lastname" placeholder="Lastname" id="lastname" required>
+                        <input type="text" name="nickname" placeholder="Nickname" id="nickname" required>
+                        <input type="email" name="email" placeholder="Email adress" id="email" required>
+                        <input type="text" name="topic" placeholder="Topic" required>
+                        <textarea name="message" placeholder="Write your message" required></textarea>
+                        <button type="submit" name="submit">Submit</button>
+                    </form>
+                </div>
+            </section>
+
+            <section>
+                <div class="map-wrapper">
+                    <h2>Where to find us:</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2028.5770093874708!2d18.0611437763486!3d59.44012900214766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9b937e97af13%3A0xef984bf2bc386cb7!2s%C3%85va%20gymnasium!5e0!3m2!1ssv!2sse!4v1747949728165!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </main>
+        <footer class="footer-content">
+            <p>&copy; 2025 Almung Home</p>
+        </footer>
+        <script src="../javascript/contactUs.js"></script>
+        <script src="../javascript/slutprojekt.js"></script>
+    </body>
+</html>

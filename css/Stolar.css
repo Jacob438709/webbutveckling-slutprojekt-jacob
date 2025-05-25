@@ -1,0 +1,22 @@
+.chair-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+}
+.chair{
+    margin-top: 50px;
+}
+.backgroundimage{
+    background-image: url(../bilder/Skog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+@media(max-width: 600px){
+    .chair-wrapper{
+        flex-direction: column;
+    }
+}

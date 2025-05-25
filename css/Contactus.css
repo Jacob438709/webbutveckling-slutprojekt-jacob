@@ -1,0 +1,42 @@
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+form {
+    height: 100%;
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+textarea{
+    resize: none;
+    height: 100px;
+}
+button{
+    height: 4vh;
+    width: 5vw;
+}
+input,textarea,button{
+    margin-bottom: 40px;
+    width: 90%;
+    max-width: 175px;
+}
+.map-wrapper {
+    width: 90%;
+    margin: 50px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+  
+.map-wrapper iframe {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.errormessage-wrapper{
+    text-align: center;
+}
